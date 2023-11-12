@@ -28,8 +28,8 @@ on your computer to run these commands:
 
 ```bash
 # clone the code repository and install its dependencies
-$ git clone https://github.com/symfony/demo.git my_project
-$ cd my_project/
+$ git clone https://github.com/ZoshQQQ/demo_task_management
+$ cd demo_task_management/
 $ composer install
 ```
 
@@ -42,7 +42,7 @@ There's no need to configure anything before running the application. There are
 **Option 1.** [Download Symfony CLI][4] and run this command:
 
 ```bash
-$ cd my_project/
+$ cd demo_task_management/
 $ symfony serve
 ```
 
@@ -54,7 +54,7 @@ Then access the application in your browser at the given URL (<http://localhost:
 On your local machine, you can run this command to use the built-in PHP web server:
 
 ```bash
-$ cd my_project/
+$ cd demo_task_management/
 $ php -S localhost:8000 -t public/
 ```
 
